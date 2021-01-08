@@ -38,8 +38,6 @@ $(document).ready(function () {
 
     //initializing swiper slider
     var swiper = new Swiper('.swiper-container', {
-        slidesPerView: 3,
-        spaceBetween: 30,
         centeredSlides: true,
         loop: true,
         pagination: {
@@ -48,12 +46,12 @@ $(document).ready(function () {
         },
         breakpoints: {
 
-            1020: {
+            1120: {
                 slidesPerView: 3,
-                spaceBetween: 30
             },
-            768: {
-                slidesPerView: 2
+            1020: {
+                slidesPerView: 2,
+                spaceBetween: 30
             },
             600: {
                 spaceBetween: 10
